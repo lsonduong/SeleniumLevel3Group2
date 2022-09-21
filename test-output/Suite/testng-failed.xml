@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Suite]">
+  <parameter name="DriverKey" value="FF"/>
+  <test name="Test-method test(failed)">
+    <parameter name="DriverKey" value="FF"/>
+    <classes>
+      <class name="TestModules.LogigearEmail_TestSuite.MailBoxTests">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="MailBoxTestsTC_01"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- TestModules.LogigearEmail_TestSuite.MailBoxTests -->
+    </classes>
+  </test> <!-- Test-method test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

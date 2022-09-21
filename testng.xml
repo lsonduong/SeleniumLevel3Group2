@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1">
+  <test name="Test-method test">
+  	<parameter name="DriverKey" value="FF" />
+    <classes>
+      <class name="TestModules.LogigearEmail_TestSuite.MailBoxTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
