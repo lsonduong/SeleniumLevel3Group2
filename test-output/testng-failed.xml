@@ -7,7 +7,6 @@
         <methods>
           <include name="beforeMethod"/>
           <include name="MailBoxTestsTC_02"/>
-          <include name="MailBoxTestsTC_01"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- TestModules.LogigearEmail_TestSuite.MailBoxTests -->
