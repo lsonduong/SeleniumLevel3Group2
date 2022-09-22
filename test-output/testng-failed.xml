@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestModules.Vietjet_TestSuite.VietjetTests">
+      <class name="TestModules.LogigearEmail_TestSuite.MailBoxTests">
         <methods>
-          <include name="VietjetTestsTC_02"/>
           <include name="beforeMethod"/>
+          <include name="MailBoxTestsTC_02"/>
+          <include name="MailBoxTestsTC_01"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- TestModules.Vietjet_TestSuite.VietjetTests -->
+      </class> <!-- TestModules.LogigearEmail_TestSuite.MailBoxTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

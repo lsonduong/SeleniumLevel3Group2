@@ -24,7 +24,7 @@ public class Constant {
 	
 	//Logigear Email Data
 	public static final String LgMailUrl = "https://sgmail.logigear.com";
-	public static final Account TestAccount = new Account("duong.luong","p@ssw0rd2");
+	public static final Account TestAccount = new Account("duong.luong","*******");
 	public static final Email TestEmail = new Email(Utilities.getProjectPath() + "\\ConfigFiles\\config.cfg");
 	public static final String ImageDownload = Utilities.getProjectPath() + "\\ConfigFiles\\saved.jpg";
 	public static final Email TestEmailImage = new Email("duong.luong@logigear.com",""

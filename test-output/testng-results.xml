@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42094" started-at="2020-04-27T17:07:38 ICT" finished-at="2020-04-27T17:08:20 ICT">
+  <suite name="Default suite" duration-ms="2816" started-at="2022-09-22T13:27:40 ICT" finished-at="2022-09-22T13:27:43 ICT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42094" started-at="2020-04-27T17:07:38 ICT" finished-at="2020-04-27T17:08:20 ICT">
-      <class name="TestModules.Agoda_TestSuite.AgodaTests">
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:TestModules.Agoda_TestSuite.AgodaTests@9660f4e]" name="beforeMethod" is-config="true" duration-ms="10069" started-at="2020-04-27T17:07:38 ICT" finished-at="2020-04-27T17:07:48 ICT">
+    <test name="Default test" duration-ms="2816" started-at="2022-09-22T13:27:40 ICT" finished-at="2022-09-22T13:27:43 ICT">
+      <class name="TestModules.LogigearEmail_TestSuite.MailBoxTests">
+        <test-method status="FAIL" signature="beforeMethod(java.lang.String)[pri:0, instance:TestModules.LogigearEmail_TestSuite.MailBoxTests@6e6c3152]" name="beforeMethod" is-config="true" duration-ms="2646" started-at="2022-09-22T13:27:40 ICT" finished-at="2022-09-22T13:27:42 ICT">
           <params>
             <param index="0">
               <value>
@@ -15,18 +15,159 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Web Driver Failed to Start Up!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Web Driver Failed to Start Up!
+at org.testng.Assert.fail(Assert.java:97)
+at TestModules.TestBase.beforeMethod(TestBase.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="AgodaTestsTC_03()[pri:0, instance:TestModules.Agoda_TestSuite.AgodaTests@9660f4e]" name="AgodaTestsTC_03" duration-ms="31983" started-at="2020-04-27T17:07:48 ICT" finished-at="2020-04-27T17:08:20 ICT">
+        <test-method status="SKIP" signature="MailBoxTestsTC_01()[pri:0, instance:TestModules.LogigearEmail_TestSuite.MailBoxTests@6e6c3152]" name="MailBoxTestsTC_01" duration-ms="0" started-at="2022-09-22T13:27:42 ICT" finished-at="2022-09-22T13:27:42 ICT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Web Driver Failed to Start Up!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Web Driver Failed to Start Up!
+at org.testng.Assert.fail(Assert.java:97)
+at TestModules.TestBase.beforeMethod(TestBase.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AgodaTestsTC_03 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestModules.Agoda_TestSuite.AgodaTests@9660f4e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-27T17:08:20 ICT" finished-at="2020-04-27T17:08:20 ICT">
+        </test-method> <!-- MailBoxTestsTC_01 -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:TestModules.LogigearEmail_TestSuite.MailBoxTests@6e6c3152]" name="afterMethod" is-config="true" duration-ms="-1663828062996" started-at="2022-09-22T13:27:42 ICT" finished-at="1970-01-01T07:00:00 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- TestModules.Agoda_TestSuite.AgodaTests -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.String)[pri:0, instance:TestModules.LogigearEmail_TestSuite.MailBoxTests@6e6c3152]" name="beforeMethod" is-config="true" duration-ms="-1663828062998" started-at="2022-09-22T13:27:42 ICT" finished-at="1970-01-01T07:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="MailBoxTestsTC_02()[pri:0, instance:TestModules.LogigearEmail_TestSuite.MailBoxTests@6e6c3152]" name="MailBoxTestsTC_02" duration-ms="0" started-at="2022-09-22T13:27:42 ICT" finished-at="2022-09-22T13:27:42 ICT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Web Driver Failed to Start Up!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Web Driver Failed to Start Up!
+at org.testng.Assert.fail(Assert.java:97)
+at TestModules.TestBase.beforeMethod(TestBase.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MailBoxTestsTC_02 -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:TestModules.LogigearEmail_TestSuite.MailBoxTests@6e6c3152]" name="afterMethod" is-config="true" duration-ms="-1663828063005" started-at="2022-09-22T13:27:43 ICT" finished-at="1970-01-01T07:00:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestModules.LogigearEmail_TestSuite.MailBoxTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
